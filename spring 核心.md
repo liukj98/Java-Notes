@@ -13,7 +13,7 @@ Spring 是一个框架，该框架的核心技术有两个：**IOC** 和 **AOP**
 1. **IOC（Inversion Of Control）**：**控制反转**。将对象的创建、对象与对象之间的依赖关系都交由 Spring 进行管理，开发人员无需关注。控制反转是一种设计思想，在 Spring 中实现这种思想的方式是 **DI（Dependency Injection）**，底层使用的是**反射机制**
 2. **AOP（Aspect Oriented Programming）**：**面向切面编程**
 
-由于所有对象交由 Spring 管理，所以 Spring 又称之为**容器**
+由于所有对象交由 Spring 管理，所以 Spring 又称之为**IOC 容器**，简称**容器**
 
 ## IDEA 搭建 Spring 项目步骤
 
