@@ -16,15 +16,17 @@
 
 在 maven 项目的根目录下有如下约定的目录结构
 
+
 ```xml
-|---src
-    |---main                          // 主程序目录
-				|---java 											// 源代码目录
-				|---resources 								// 配置文件目录
-    |---test 													// 测试程序目录
-				|---java 											// 测试程序源代码目录
-				|---resources 								// 测试程序需要的配置文件目录
-|---pom.xml 													// maven 配置文件
+.
+├── pom.xml             // maven 配置文件
+└── src
+    ├── main            // 主程序目录
+    │   ├── java        // 源代码目录
+    │   └── resources   // 配置文件目录
+    └── test            // 测试程序目录
+        ├── java        // 测试程序源代码目录
+        └── resources   // 测试程序需要的配置文件目录
 ```
 
 ### pom.xml 文件
