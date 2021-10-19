@@ -1,36 +1,36 @@
 ## Table of Content
 
-- [什么是 maven](#什么是 maven)
-- [下载安装 maven](#下载安装 maven)
-- [maven 核心概念](#maven 核心概念)
+- [什么是Maven](#什么是Maven)
+- [下载安装Maven](#下载安装Maven)
+- [Maven核心概念](#Maven核心概念)
   - [约定的目录结构](#约定的目录结构)
-  - [pom.xml 文件](#pom.xml 文件)
-    - [三个向量定位一个 maven 项目](#三个向量定位一个 maven 项目)
+  - [pom.xml文件](#pom.xml文件)
+    - [三个向量定位一个Maven项目](#三个向量定位一个Maven项目)
   - [仓库](#仓库)
   - [依赖](#依赖)
-  - [maven 的生命周期、插件、命令](#maven 的生命周期、插件、命令)
+  - [的生命周期、插件、命令](#的生命周期、插件、命令)
     - [生命周期](#生命周期)
     - [插件](#插件)
     - [命令](#命令)
     - [自定义配置插件](#自定义配置插件)
     - [单元测试](#单元测试)
-- [IDEA 中使用 Maven](# IDEA 中使用 Maven)
+- [IDEA中使用Maven](#IDEA中使用Maven)
 - [依赖范围管理](#依赖范围管理)
 - [常用设置](#常用设置)
   - [配置自定义变量](#配置自定义变量)
   - [配置资源插件](#配置资源插件)
 
-## 什么是 maven
+## 什么是Maven
 
 一般来说 maven 是一个构建工具，但是，它又不仅是一个构建工具，所以它并不是 Ant（另一个 java 项目构建工具） 的替代品
 
-## 下载安装 maven
+## 下载安装Maven
 
 1. 到官网下载 maven 安装包
 2. 解压 maven 安装包到磁盘上的某个目录下
 3. 配置 maven 的环境变量
 
-## maven 核心概念
+## Maven核心概念
 
 ### 约定的目录结构
 
@@ -49,11 +49,11 @@
         └── resources   // 测试程序需要的配置文件目录
 ```
 
-### pom.xml 文件
+### pom.xml文件
 
 `POM（Project Object Model）`：项目对象模型。我们在开发中接触最多的就是这个 `pom.xml` 文件了
 
-#### 三个向量定位一个 maven 项目
+#### 三个向量定位一个Maven项目
 
 > gav 是 groupId+artifactId+version 三个标签的简称，又称为坐标，表示根据这三个标签就能知道这个项目的基本信息，即**「这个项目是属于哪个公司的」**、**「这个项目的名称是什么」**、**「这个项目的当前版本号是多少」**
 
@@ -226,7 +226,7 @@ public class TestHelloMaven {
 }
 ```
 
-## IDEA 中使用 Maven
+## IDEA中使用Maven
 
 IDEA 中自带 maven，但是一般我们都要使用我们安装的 maven，所以需要在 IDEA 中进行 maven 的相关配置
 
