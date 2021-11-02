@@ -1,4 +1,4 @@
-[toc]
+[[toc]]
 
 ## 理解 Spring
 
